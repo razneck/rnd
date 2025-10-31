@@ -2,7 +2,7 @@
 
 #EXTM3U x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz; http://gabbarit.drm-play.com/epg_lite.xml.gz"
 
-#EXTINF:-1 tvg-id="Channel5.ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",Channel 5
+#EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",Channel 5
 https://streaming.televizor-24-tochka.ru/live/8.m3u8
 
 #EXTINF:-1 tvg-id="ChannelOne.ru" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="General",Channel One
