@@ -8,7 +8,7 @@
 # https://streaming.televizor-24-tochka.ru/live/8.m3u8
 
 # Channel 5 International
-#EXTINF:-1 tvg-id="Пятый канал International" tvg-logo="https://i.imgur.com/8VKc2Ya.png" group-title="General",Пятый канал International
+#EXTINF:-1 tvg-id="Пятый канал" tvg-logo="https://i.imgur.com/8VKc2Ya.png" group-title="General",Пятый канал International
 https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
 
 
@@ -48,7 +48,7 @@ https://streaming.thestream.cyou/live/43.m3u8
 
 
 # RTR-Planeta
-#EXTINF:-1 tvg-id="Planeta RTR" tvg-logo="https://i.imgur.com/T42cuYx.png" group-title="General",Планета РТР
+#EXTINF:-1 tvg-id="Планета РТР" tvg-logo="https://i.imgur.com/T42cuYx.png" group-title="General",Планета РТР
 https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410
 
 
