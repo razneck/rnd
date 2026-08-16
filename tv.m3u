@@ -1,60 +1,107 @@
-#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz; http://gabbarit.drm-play.com/epg_lite.xml.gz"
+#EXTM3U url-tvg="http://gabbarit.drm-play.com/epg_lite.xml.gz"
 
-#EXTM3U x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz; http://gabbarit.drm-play.com/epg_lite.xml.gz"
+#EXTM3U x-tvg-url="http://gabbarit.drm-play.com/epg_lite.xml.gz"
 
-#REM: #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",Channel 5
-#REM: https://streaming.televizor-24-tochka.ru/live/8.m3u8
 
-#EXTINF:-1 tvg-id="Первый канал HD" tvg-logo="https://uut-telecom.ru/wp-content/uploads/2021/12/pervyj-hd.png" group-title="General",Первый канал HD
+# Channel 5 (broken)
+# #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",Channel 5
+# https://streaming.televizor-24-tochka.ru/live/8.m3u8
+
+# Channel 5 International
+#EXTINF:-1 tvg-id="Пятый канал International" tvg-logo="https://i.imgur.com/8VKc2Ya.png" group-title="General",Пятый канал International
+https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
+
+
+# Channel One
+#EXTINF:-1 tvg-id="Первый канал" tvg-logo="https://uut-telecom.ru/wp-content/uploads/2021/12/pervyj-hd.png" group-title="General",Первый канал HD
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
-#REM: #EXTINF:-1 tvg-id="ChannelOne.ru" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="General",Channel One (2)
-#REM: https://streaming.televizor-24-tochka.ru/live/4.m3u8
 
-#REM: #EXTINF:-1 tvg-id="NTV.ru@HD" tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="General",NTV HD
-#REM: https://livetv.mylifeisgood.net.ru/channels/ntvhd.m3u8
+# Channel One (2)
+#EXTINF:-1 tvg-id="Первый канал" tvg-logo="https://uut-telecom.ru/wp-content/uploads/2021/12/pervyj-hd.png" group-title="General",Первый канал HD (2)
+https://stream8.cinerama.uz/1214/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="NTV.ru@HD" tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="General",NTV HD
-https://cdn.ntv.ru/ntv0/playlist.m3u8
 
-#EXTINF:-1 tvg-id="NTVMir.ru" tvg-logo="https://i.imgur.com/pUcV46F.png" group-title="General",NTV Mir
-https://streaming.thestream.cyou/live/213.m3u8
+# NTV
+#EXTINF:-1 tvg-id="НТВ" tvg-logo="https://real.su/wp-content/uploads/2019/12/%D0%9D%D0%A2%D0%92_HD-20220826-123641.png" group-title="General",НТВ HD
+https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=2077050299&s=HSWg81JrQ3OqmwuWkEIDAQ&scheme=https
 
-#EXTINF:-1 tvg-id="Pobeda.ru" tvg-logo="https://i.imgur.com/4KiYSln.png" group-title="General",Pobeda
+
+# NTV (2)
+#EXTINF:-1 tvg-id="НТВ" tvg-logo="https://real.su/wp-content/uploads/2019/12/%D0%9D%D0%A2%D0%92_HD-20220826-123641.png" group-title="General",НТВ HD
+https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8
+
+
+# NTV Mir
+#EXTINF:-1 tvg-id="НТВ Мир" tvg-logo="https://i.imgur.com/pUcV46F.png" group-title="General",НТВ Мир
+http://5.188.159.128:8070/ntvmir_TV/index.m3u8
+
+
+# Pobeda
+#EXTINF:-1 tvg-id="Победа" tvg-logo="https://pobeda.tv/images/logo_header.png" group-title="General",Победа
 https://streaming.thestream.cyou/live/43.m3u8
 
-#REM: #EXTINF:-1 tvg-id="RENTV.ru" tvg-logo="https://i.imgur.com/0Tu5lte.png" group-title="General",REN TV
-#REM: https://streaming.televizor-24-tochka.ru/live/14.m3u8
 
-#EXTINF:-1 tvg-id="RTRPlanetaAsia.ru" tvg-logo="https://i.imgur.com/DTtK0z7.png" group-title="General",RTR-Planeta Asia
-https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363
+# REN TV (broken)
+# #EXTINF:-1 tvg-id="RENTV.ru" tvg-logo="https://i.imgur.com/0Tu5lte.png" group-title="General",REN TV
+# https://streaming.televizor-24-tochka.ru/live/14.m3u8
 
-#EXTINF:-1 tvg-id="RTRPlanetaCIS.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General",RTR-Planeta CIS
-https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f
 
-#EXTINF:-1 tvg-id="RTRPlanetaEurope.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png" group-title="General",RTR-Planeta Europe
-https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
+# RTR-Planeta
+#EXTINF:-1 tvg-id="Planeta RTR" tvg-logo="https://i.imgur.com/T42cuYx.png" group-title="General",Планета РТР
+https://stream.smotrim.ru/hls/planeta_rtr_sng/playlist.m3u8?entity=channel&id=512&sign=2abaa592de074d65809a10b6bacc4410
 
-#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/11-%D0%B9_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-1.svg/512px-11-%D0%B9_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-1.svg.png" group-title="General",Russia-1
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/512px-Rossiya-24_Logo.svg.png" group-title="General",Russia-24
+# Rossia 1
+#EXTINF:-1 tvg-id="Россия 1" tvg-logo="https://uut-telecom.ru/wp-content/uploads/2021/12/rossiya-1-hd.png" group-title="General",Россия 1 HD
+https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8
+
+
+# Rossia 24
+#EXTINF:-1 tvg-id="Россия 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" group-title="General",Россия 24
 https://player.smotrim.ru/iframe/stream/live_id/3214d57c-8651-435a-938c-be13bfd00a04
 
-#EXTINF:-1 tvg-id="kultura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/512px-Russia-Cultura.svg.png" group-title="General",Russia-K
+
+# Kultura
+#EXTINF:-1 tvg-id="Россия К" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png" group-title="General",Россия К
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 
-#EXTINF:-1 tvg-id="TNT4.ru" tvg-logo="https://i.imgur.com/gBokU5i.png" group-title="General",TNT4 (плоха)
-http://31.148.48.15/TNT4/index.m3u8
 
-#EXTINF:-1 tvg-id="TNT.ru" tvg-logo="https://i.imgur.com/T4A6rEI.png" group-title="General",TNT (плоха)
-http://31.148.48.15/TNT/index.m3u8
+# RBK-TV
+#EXTINF:-1 tvg-id="РБК" tvg-logo="https://i.imgur.com/CwhmJby.png" group-title="General",РБК
+http://online-video.rbc.ru/online2/rbctv.m3u8
 
-#EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Zvezda
-https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Zvezda (2)
+# CTC
+#EXTINF:-1 tvg-id="СТС" tvg-logo="https://i.imgur.com/ilUzAeb.png" group-title="General",СТС
+http://stream.mcquack.net/138/index.m3u8
+
+
+# TNT4 (broken)
+# #EXTINF:-1 tvg-id="TNT4.ru" tvg-logo="https://i.imgur.com/gBokU5i.png" group-title="General",TNT4 (плоха)
+# http://31.148.48.15/TNT4/index.m3u8
+
+
+# TNT
+#EXTINF:-1 tvg-id="ТНТ" tvg-logo="https://i.imgur.com/T4A6rEI.png" group-title="General",ТНТ
+http://stream.mcquack.net/135/index.m3u8
+
+
+# Zvezda
+#EXTINF:-1 tvg-id="Звезда" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Звезда HD
 https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Zvezda-Plus.ru" tvg-logo="https://i.imgur.com/NNmjD9Z.png" group-title="General",Zvezda Plus
-http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
+
+# Zvezda (2)
+#EXTINF:-1 tvg-id="Звезда" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Звезда HD(2)
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+
+
+# Zvezda SD
+#EXTINF:-1 tvg-id="Звезда" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Звезда SD
+https://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8
+
+
+# Zvezda Plus (broken)
+# #EXTINF:-1 tvg-id="Zvezda-Plus.ru" tvg-logo="https://i.imgur.com/NNmjD9Z.png" group-title="General",Zvezda Plus
+# http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
