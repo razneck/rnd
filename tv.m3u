@@ -5,7 +5,7 @@
 #REM: #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://i.imgur.com/KPXMa3U.png" group-title="General",Channel 5
 #REM: https://streaming.televizor-24-tochka.ru/live/8.m3u8
 
-#EXTINF:-1 tvg-id="pervy" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="General",Channel One
+#EXTINF:-1 tvg-id="Первый канал HD" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="General",Channel One
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 
 #REM: #EXTINF:-1 tvg-id="ChannelOne.ru" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="General",Channel One (2)
