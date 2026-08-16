@@ -93,12 +93,12 @@ https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
 
 
 # Zvezda (2)
-#EXTINF:-1 tvg-id="Звезда" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Звезда HD(2)
+#EXTINF:-1 tvg-id="Звезда" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Звезда HD (2)
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 
 
 # Zvezda SD
-#EXTINF:-1 tvg-id="Звезда" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Звезда SD
+#EXTINF:-1 tvg-id="Звезда" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Звезда
 https://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8
 
 
