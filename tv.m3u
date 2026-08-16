@@ -8,7 +8,7 @@
 # https://streaming.televizor-24-tochka.ru/live/8.m3u8
 
 # Channel 5 International
-#EXTINF:-1 tvg-id="Пятый канал" tvg-logo="https://i.imgur.com/8VKc2Ya.png" group-title="General",Пятый канал International
+#EXTINF:-1 tvg-id="Пятый канал" tvg-logo="http://i127.fastpic.org/big/2026/0412/6c/fdb585db84d7c3a4079fa0b2202f5f6c.png" group-title="General",Пятый канал International
 https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
 
 
